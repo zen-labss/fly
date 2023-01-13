@@ -1,0 +1,18 @@
+{
+  "name": "@zen/core",
+  "version": "1.0.0",
+  "description": "Core of zen emails",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn mitosis ts-node --project=tsconfig.json ./util/compile.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@builder.io/mitosis": "^0.0.83",
+    "@builder.io/mitosis-cli": "^0.0.41",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4"
+  }
+}
