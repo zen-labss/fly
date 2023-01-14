@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "yarn mitosis ts-node --project=tsconfig.json ./util/compile.ts"
+    "build": "yarn ts-node ./util/compile.ts"
   },
   "dependencies": {},
   "devDependencies": {
