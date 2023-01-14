@@ -5,5 +5,4 @@ Frameworks supported
 - Vue
 - React
 - Angular
-- Qwik
-- Svelte
+
