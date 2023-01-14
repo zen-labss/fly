@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "ES2015"]
+  },
+  "exclude": ["dist", "build", "node_modules"]
+}
