@@ -1,10 +1,9 @@
 import vue from "@vitejs/plugin-vue";
-import styles from "rollup-plugin-styles";
 
 export default {
   input: "src/main.ts",
   output: {
-    file: "./dist/vue.cjs.js",
+    file: "./dist/vue.cjs",
     format: "cjs",
     globals: {
       vue: "Vue",
@@ -13,5 +12,5 @@ export default {
     },
   },
   external: ["vue", "lodash/mergeWith", "lodash/isString"],
-  plugins: [vue(), styles({ mode: "inject" })],
+  plugins: [vue()],
 };

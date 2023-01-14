@@ -4,9 +4,7 @@ import { renderToString } from "vue/server-renderer";
 const render = async (App, data) => {
   const app = createApp({ render: () => h(App) }, data);
 
-  const html = await renderToString(app).then((html) => {
-    return html;
-  });
+  const html = await renderToString(app);
 
   return html;
 };
