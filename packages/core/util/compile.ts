@@ -1,7 +1,7 @@
 import * as path from "path";
 import { spawnSync, execSync } from "child_process";
 
-const files = ["html"];
+const files = ["html", "button"];
 
 enum Target {
   Angular = "angular",
