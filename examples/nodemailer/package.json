@@ -17,13 +17,13 @@
     "lodash": "^4.17.21",
     "nodemailer": "^6.9.0",
     "rollup": "^3.10.0",
-    "rollup-plugin-styles": "^4.0.0",
     "tsconfig": "^7.0.0",
     "typescript": "^4.9.4",
     "vite": "^4.0.4",
     "vue": "^3.2.45"
   },
   "dependencies": {
-    "@zen-labs/render-vue": "^1.0.3"
+    "@fly-email/render-vue": "^1.0.1",
+    "@fly-email/vue": "^1.0.4"
   }
 }
