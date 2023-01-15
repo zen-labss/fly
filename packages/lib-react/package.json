@@ -1,7 +1,8 @@
 {
   "name": "@fly-email/react",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "dist/main.mjs",
+  "types": "dist/main.d.ts",
   "license": "MIT",
   "scripts": {
     "build": "tsup src/main.ts --format esm,cjs --dts --external react"

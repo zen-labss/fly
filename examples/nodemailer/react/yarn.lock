@@ -34,18 +34,18 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@fly-email/react@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@fly-email/react/-/react-1.0.0.tgz#357e405ba7d1f872375fe9f9199216c86ffbd1a7"
-  integrity sha512-0Y8tkWq1fzTer5t1o6pT1/sdn5Iw9476aegCmhz6n7zXkDYKlA5Yb696KtBs18phgirv268+qwafJbZuwYIugw==
+"@fly-email/react@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@fly-email/react/-/react-1.0.2.tgz#05c4cccb512d5465cac510e7b843850cd7c01a31"
+  integrity sha512-3b7QNCENaZMiFDxzgnRFaGISL3xfojdx19gkl6nmL4gkIBUJmZfOjYOByN7ohQbmE47QVMttP+PKVP3FSKiCBQ==
   dependencies:
     react "^18.2.0"
     react-dom "^18.2.0"
 
-"@fly-email/render-react@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@fly-email/render-react/-/render-react-1.0.1.tgz#1cf750077c8c2a787403957a788e0351ab72a02d"
-  integrity sha512-3qa3dnHZ9453+JY4fZ97D+r9o27TIFVcnkRLblM4uq057c624zQsbZt6iO2C0PG8W3059+F70pkS3Du7EqGuSA==
+"@fly-email/render-react@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@fly-email/render-react/-/render-react-1.0.5.tgz#e530b22991e1e7e05ee96e8675e175de29a19da4"
+  integrity sha512-+KTYXGpt7ltiMCXEP1w7ErMzwCEMRwul+Gh6ZCkAR/bo/3+lFouflHLIEQbNFFxCPRuQSeSwaTnNI1OglrRL6w==
 
 "@humanwhocodes/config-array@^0.10.4":
   version "0.10.7"

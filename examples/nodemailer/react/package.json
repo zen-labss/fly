@@ -6,10 +6,10 @@
   "scripts": {
     "build": "tsup src/main.tsx --format esm,cjs --dts --external react && node dist/main.cjs"
   },
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
-    "@fly-email/react": "^1.0.0",
-    "@fly-email/render-react": "^1.0.1"
+    "@fly-email/react": "^1.0.2",
+    "@fly-email/render-react": "^1.0.5"
   },
   "devDependencies": {
     "@types/nodemailer": "^6.4.7",
