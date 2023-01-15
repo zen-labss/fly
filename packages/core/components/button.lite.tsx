@@ -6,7 +6,7 @@ interface Props {
 
 export default function Button(props: Props) {
   return (
-    <a style={{ padding: "10px", ...props.style }} {...props.props}>
+    <a style={{ padding: "10px", ...props.styled }} {...props.props}>
       {props.children}
     </a>
   );

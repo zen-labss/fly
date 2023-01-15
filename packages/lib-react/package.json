@@ -1,0 +1,36 @@
+{
+  "name": "@fly-email/react",
+  "version": "1.0.0",
+  "main": "dist/main.mjs",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup src/main.ts --format esm,cjs --dts --external react"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.20",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.23.1",
+    "eslint-config-custom": "*",
+    "tsconfig": "*",
+    "tsup": "6.2.3",
+    "typescript": "4.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zen-labss/fly.git"
+  },
+  "keywords": [
+    "react",
+    "components"
+  ],
+  "author": "Giovanni Soares",
+  "bugs": {
+    "url": "https://github.com/zen-labss/fly/issues"
+  },
+  "homepage": "https://github.com/zen-labss/fly#readme",
+  "description": ""
+}

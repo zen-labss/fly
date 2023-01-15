@@ -14,5 +14,4 @@ function Container(props) {
   );
 }
 
-const observedContainer = observer(Container);
-export default observedContainer;
+export default Container;

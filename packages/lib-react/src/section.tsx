@@ -12,5 +12,4 @@ function Section(props) {
   );
 }
 
-const observedSection = observer(Section);
-export default observedSection;
+export default Section;

@@ -2,7 +2,7 @@
   <div
     :style="{
       maxWidth: '700px',
-      ...style,
+      ...children,
     }"
     v-bind="$props"
   >
@@ -14,6 +14,6 @@
 export default {
   name: "container",
 
-  props: ["style", "props"],
+  props: ["props"],
 };
 </script>

@@ -8,5 +8,4 @@ function Html(props) {
   );
 }
 
-const observedHtml = observer(Html);
-export default observedHtml;
+export default Html;

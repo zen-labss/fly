@@ -4,5 +4,5 @@ interface Props {
 }
 
 export default function Button(props: Props) {
-  return <hr style={props.style} {...props.props} />;
+  return <hr style={props.styled} {...props.props} />;
 }

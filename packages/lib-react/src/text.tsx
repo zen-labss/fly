@@ -13,5 +13,4 @@ function Text(props) {
   );
 }
 
-const observedText = observer(Text);
-export default observedText;
+export default Text;

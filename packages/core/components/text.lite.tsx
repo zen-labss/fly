@@ -6,7 +6,7 @@ interface Props {
 
 export default function Text(props: Props) {
   return (
-    <p style={{ ...props.style }} {...props.props}>
+    <p style={{ ...props.styled }} {...props.props}>
       {props.children}
     </p>
   );

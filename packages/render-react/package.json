@@ -1,0 +1,36 @@
+{
+  "name": "@fly-email/render-react",
+  "version": "1.0.1",
+  "description": "Render HTML for react",
+  "main": "dist/react*.cjs",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup src/main.ts --format esm,cjs --dts --external react"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/react": "18.0.20",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.23.1",
+    "eslint-config-custom": "",
+    "tsconfig": "*",
+    "tsup": "6.2.3",
+    "typescript": "4.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zen-labss/fly.git"
+  },
+  "author": "Giovanni Soares",
+  "bugs": {
+    "url": "https://github.com/zen-labss/fly/issues"
+  },
+  "homepage": "https://github.com/zen-labss/fly/zen#readme",
+  "keywords": [
+    "render",
+    "react",
+    "html"
+  ]
+}
