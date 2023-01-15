@@ -1,4 +1,4 @@
-import { render } from "@zen-labs/render-vue";
+import { render } from "@fly-email/render-vue";
 import View from "./View.vue";
 import nodemailer from "nodemailer";
 

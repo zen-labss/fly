@@ -101,7 +101,5 @@ import {
   Section,
   Text,
   Container,
-} from "../../../packages/lib-vue3/src/main.js";
-
-import { ref, computed } from "vue";
+} from "@fly-email/vue";
 </script>
