@@ -1,24 +1,16 @@
 import * as path from "path";
 import { spawnSync, execSync } from "child_process";
 
-const files = ["html", "button"];
+const files = ["html", "button", "container", "hr", "img", "section", "text"];
 
 enum Target {
-  Angular = "angular",
   React = "react",
-  Svelte = "svelte",
   Vue3 = "vue3",
-  Solid = "solid",
-  Qwik = "qwik",
 }
 
 const extensionMap: Record<Target, string> = {
-  [Target.Angular]: "ts",
   [Target.React]: "tsx",
-  [Target.Svelte]: "svelte",
   [Target.Vue3]: "vue",
-  [Target.Solid]: "tsx",
-  [Target.Qwik]: "tsx",
 };
 
 Object.values(Target).map((item) => {
