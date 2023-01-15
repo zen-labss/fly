@@ -56,6 +56,7 @@ const Email = () => {
 ## Integrations
 
 - [Nodemailer](https://github.com/zen-labss/fly/tree/main/examples/nodemailer)
+- [PhpMailer](https://github.com/zen-labss/fly/tree/main/examples/phpmailer)
 
 ## Support
 

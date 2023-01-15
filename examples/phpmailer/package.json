@@ -1,0 +1,26 @@
+{
+  "name": "phpmailer",
+  "version": "1.0.0",
+  "description": "Send email php",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c rollup.config.js && node ./dist/main.cjs && php index.php"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-dynamic-import-vars": "^2.0.2",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/server-renderer": "^3.2.45",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^8.31.0",
+    "lodash": "^4.17.21",
+    "rollup": "^3.10.0",
+    "vite": "^4.0.4",
+    "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "@fly-email/render-vue": "^1.0.1",
+    "@fly-email/vue": "^1.0.4"
+  }
+}
