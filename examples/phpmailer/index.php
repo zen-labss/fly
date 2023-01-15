@@ -12,17 +12,17 @@ try {
     $mail->isSMTP();                                            
     $mail->Host       = 'smtp.gmail.com';                     
     $mail->SMTPAuth   = true;                                   
-    $mail->Username   = 'shumtztuber2@gmail.com';                     
-    $mail->Password   = 'vckbywtvpxlfxfme';                               
+    $mail->Username   = '';                     
+    $mail->Password   = '';                               
     $mail->SMTPSecure = "ssl";            
     $mail->Port       = 465;   
     $mail->CharSet = 'UTF-8';                                 
 
-    $mail->setFrom('shumtztuber2@gmail.com', 'Email');
-    $mail->addAddress('giovanni_soares@aol.com', 'Email'); 
+    $mail->setFrom('', 'Email');
+    $mail->addAddress('', 'Email'); 
 
     $mail->isHTML(true);                                  
-    $mail->Subject = 'Here is the subject';
+    $mail->Subject = 'Hello, world';
     $mail->Body    = file_get_contents('dist/View.html');
 
     $mail->send();
