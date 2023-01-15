@@ -1,18 +1,17 @@
 import * as React from "react";
 
-function Button(props) {
+function Text(props) {
   return (
-    <a
+    <p
       style={{
-        padding: "10px",
         ...props.style,
       }}
       {...props.props}
     >
       {props.children}
-    </a>
+    </p>
   );
 }
 
-const observedButton = observer(Button);
-export default observedButton;
+const observedText = observer(Text);
+export default observedText;

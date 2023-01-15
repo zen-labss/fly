@@ -1,18 +1,18 @@
 <template>
-  <a
+  <div
     :style="{
-      padding: '10px',
+      maxWidth: '700px',
       ...style,
     }"
     v-bind="$props"
   >
     <slot />
-  </a>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "button",
+  name: "container",
 
   props: ["style", "props"],
 };
