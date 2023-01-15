@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c rollup.config.js"
+    "build": "rollup -c rollup.config.js && node ./dist/vue.cjs"
   },
   "type": "module",
   "devDependencies": {
