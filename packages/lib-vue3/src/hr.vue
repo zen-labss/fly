@@ -1,13 +1,5 @@
 <template>
-  <a
-    :style="{
-      padding: '10px',
-      ...style,
-    }"
-    v-bind="$props"
-  >
-    <slot />
-  </a>
+  <hr :style="style" v-bind="$props" />
 </template>
 
 <script>

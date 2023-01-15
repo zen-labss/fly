@@ -1,6 +1,6 @@
 {
-  "name": "@zen-labs/render-vue",
-  "version": "1.0.4",
+  "name": "@fly-email/render-vue",
+  "version": "1.0.0",
   "description": "Render HTML for vue",
   "main": "dist/vue.cjs",
   "license": "MIT",
@@ -25,11 +25,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shumtz/zen.git"
+    "url": "git+https://github.com/zen-labss/fly.git"
   },
   "author": "Giovanni Soares",
   "bugs": {
-    "url": "https://github.com/shumtz/zen/issues"
+    "url": "https://github.com/zen-labss/fly/issues"
   },
-  "homepage": "https://github.com/shumtz/zen#readme"
+  "homepage": "https://github.com/zen-labss/fly/zen#readme",
+  "keywords": [
+    "render",
+    "vue",
+    "html"
+  ]
 }

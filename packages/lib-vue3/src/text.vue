@@ -1,18 +1,17 @@
 <template>
-  <a
+  <p
     :style="{
-      padding: '10px',
       ...style,
     }"
     v-bind="$props"
   >
     <slot />
-  </a>
+  </p>
 </template>
 
 <script>
 export default {
-  name: "button",
+  name: "text",
 
   props: ["style", "props"],
 };

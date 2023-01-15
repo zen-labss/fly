@@ -1,8 +1,6 @@
 <template>
   <html :lang="lang" v-bind="$props">
-    {{
-      content
-    }}
+    <slot />
   </html>
 </template>
 
@@ -10,6 +8,6 @@
 export default {
   name: "html",
 
-  props: ["lang", "props", "content"],
+  props: ["lang", "props"],
 };
 </script>
