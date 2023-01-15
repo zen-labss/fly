@@ -1,13 +1,12 @@
 {
   "name": "@fly-email/render-react",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Render HTML for react",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "license": "MIT",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts --external react"
+    "build": "tsup src/main.ts --format esm,cjs --dts --external react"
   },
   "type": "module",
   "devDependencies": {
