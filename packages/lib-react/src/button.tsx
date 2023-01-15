@@ -14,5 +14,4 @@ function Button(props) {
   );
 }
 
-const observedButton = observer(Button);
-export default observedButton;
+export default Button;

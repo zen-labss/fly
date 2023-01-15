@@ -1,6 +1,6 @@
 {
   "name": "@fly-email/render-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Render HTML for vue",
   "main": "dist/vue.cjs",
   "license": "MIT",

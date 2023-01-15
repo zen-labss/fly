@@ -1,0 +1,25 @@
+{
+  "name": "nodemailer-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup src/main.tsx --format esm,cjs --dts --external react && node dist/main.cjs"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@fly-email/react": "^1.0.2",
+    "@fly-email/render-react": "^1.0.6",
+    "@types/nodemailer": "^6.4.7",
+    "@types/react": "18.0.20",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.23.1",
+    "eslint-config-custom": "*",
+    "nodemailer": "^6.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsconfig": "*",
+    "tsup": "6.2.3",
+    "typescript": "4.8.3"
+  }
+}

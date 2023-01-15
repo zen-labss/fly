@@ -18,5 +18,4 @@ function Image(props) {
   );
 }
 
-const observedImage = observer(Image);
-export default observedImage;
+export default Image;

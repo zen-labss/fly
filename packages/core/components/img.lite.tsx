@@ -16,7 +16,7 @@ export default function Image(props: Props) {
         outline: "none",
         border: "none",
         textDecoration: "none",
-        ...props.style,
+        ...props.styled,
       }}
       width={props.width}
       height={props.height}

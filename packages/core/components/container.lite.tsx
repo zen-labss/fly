@@ -6,7 +6,7 @@ interface Props {
 
 export default function Container(props: Props) {
   return (
-    <div style={{ maxWidth: "700px", ...props.style }} {...props.props}>
+    <div style={{ maxWidth: "700px", ...props.children }} {...props.props}>
       {props.children}
     </div>
   );
