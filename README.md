@@ -1,4 +1,4 @@
-# Fly
+![Cover Fly](/assets/coverfly.png)
 
 ## Why
 
