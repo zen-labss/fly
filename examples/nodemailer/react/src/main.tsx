@@ -14,6 +14,8 @@ import App from "./index";
 
   const emailHtml = await render(<App />);
 
+  console.log(emailHtml);
+
   const options = {
     from: "",
     to: "",

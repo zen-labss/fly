@@ -11,7 +11,7 @@ import Odex from "../assets/odex.png";
 import fb from "../assets/fb.png";
 import ig from "../assets/ig.png";
 
-function App() {
+export default function App() {
   return (
     <Html lang="ptbr">
       <Section
@@ -100,5 +100,3 @@ function App() {
     </Html>
   );
 }
-
-export default App;

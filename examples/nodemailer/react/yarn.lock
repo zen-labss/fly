@@ -42,10 +42,10 @@
     react "^18.2.0"
     react-dom "^18.2.0"
 
-"@fly-email/render-react@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@fly-email/render-react/-/render-react-1.0.5.tgz#e530b22991e1e7e05ee96e8675e175de29a19da4"
-  integrity sha512-+KTYXGpt7ltiMCXEP1w7ErMzwCEMRwul+Gh6ZCkAR/bo/3+lFouflHLIEQbNFFxCPRuQSeSwaTnNI1OglrRL6w==
+"@fly-email/render-react@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@fly-email/render-react/-/render-react-1.0.6.tgz#14fde172d922059152522180908f783c91c75aee"
+  integrity sha512-ads4rO8+rgtdD0KjDqVfflK2yVY9qRF5UWd0KiloqbZCIRnwD55E1qBVfSQbq31Am3qlUpKs0/Ixi6oI5gPIPA==
 
 "@humanwhocodes/config-array@^0.10.4":
   version "0.10.7"
